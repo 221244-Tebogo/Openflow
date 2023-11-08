@@ -1,0 +1,17 @@
+@import "../../mainStyling.scss";
+
+.main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    .image{
+        display: flex;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

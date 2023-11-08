@@ -1,0 +1,15 @@
+@import "../../mainStyling.scss";
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #070707;
+  height: 100vh;
+  user-select: none;
+  .content {
+    height: 95%;
+    width: 90%;
+    color: #ffffff;
+    font-family: "Poppins";
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../mainStyling.scss";
+
+.main{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 10vh;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+}

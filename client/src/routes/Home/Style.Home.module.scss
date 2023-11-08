@@ -1,0 +1,58 @@
+@import "../../mainStyling.scss";
+
+.main {
+  display: flex;
+  justify-content: center;
+
+  background-color: #070707;
+  height: 100vh;
+  user-select: none;
+  .content {
+    height: 95%;
+    width: 90%;
+    color: #ffffff;
+    font-family: "Poppins";
+    .heading {
+      margin-top: 5vh;
+    }
+    .text {
+      color: #676767;
+      font-weight: bold;
+      font-size: 18px;
+      max-width: 26vw;
+    }
+    .searchBar {
+      width: 100%;
+      height: 8vh;
+      margin-top: 5vh;
+      display: flex;
+      justify-content: center;
+
+      .searchInput {
+        background-color: #111218;
+        outline: none;
+        border: none;
+        width: 100%;
+        border-radius: 12px;
+        color: #676767;
+        padding-left: 2vw;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+    .topQuestions{
+        margin-top: 5vh;
+        // background-color: magenta;
+        display: flex;
+        flex-direction: column;
+        .questionCarousel{
+          width: 100%;
+          height: 25vh;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 2vw;
+        }
+    }
+  }
+}

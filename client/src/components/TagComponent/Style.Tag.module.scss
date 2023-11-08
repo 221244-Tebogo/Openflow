@@ -1,0 +1,16 @@
+@import "../../mainStyling.scss";
+
+.main{
+    background-color: #6E7CF9;
+    display: flex;
+    padding: 0.1vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    font-weight: bold;
+    .text{
+        font-size: 12px;
+    }
+}

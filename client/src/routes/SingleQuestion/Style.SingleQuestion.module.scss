@@ -1,0 +1,116 @@
+@import "../../mainStyling.scss";
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #070707;
+}
+
+.content {
+  background: #070707;
+  padding: 20px;
+  font-family: "Poppins";
+  height: 96vh;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionHeading {
+  font-size: 20px;
+  margin-top: 4.3vh;
+  margin-bottom: 3vh;
+}
+
+
+.unansweredSection,
+.answeredSection {
+  flex: 1;
+  border-right: 1px solid #4d4d4d;
+  padding: 0 10px;
+  color: white;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.questionBlock {
+  display: flex;
+  flex-direction: column;
+  background: #111218;
+  justify-content: center;
+  height: 20vh;
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  padding: 20px;
+  position: relative;
+}
+
+.question {
+  text-align: left;
+  padding: 10px;
+  color: white;
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.languageTag {
+  background: #6E7CF9;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center;
+  width: 8vw;
+}
+
+.statusIndicatorRed,
+.statusIndicatorGreen {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 10px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.statusIndicatorRed {
+  background: #ff0000;
+}
+
+.statusIndicatorGreen {
+  background: #008000;
+}
+
+.showDescription {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-weight: bold;
+}
+.author{
+  color: #4d4d4d;
+}
+.questionImage{
+  max-height: 45vh;
+}
+.tagBox{
+  display: flex;
+  gap: 0.2vw;
+  height: fit-content;
+  width: auto;
+  max-width: 100vw;
+}

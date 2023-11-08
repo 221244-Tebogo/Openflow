@@ -1,0 +1,58 @@
+@import "../../mainStyling.scss";
+
+.questionBlock {
+    display: flex;
+    flex-direction: column;
+    background: #111218;
+    justify-content: center;
+    height: 20vh;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .question {
+    text-align: left;
+    padding: 10px;
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  .languageTag {
+    background: #6E7CF9;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    width: 8vw;
+  }
+  
+  .statusIndicatorRed,
+  .statusIndicatorGreen {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .statusIndicatorRed {
+    background: #ff0000;
+  }
+  
+  .statusIndicatorGreen {
+    background: #008000;
+  }
+  
+  .showDescription {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-weight: bold;
+  }
